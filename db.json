@@ -1,11 +1,28 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+curl --location --request POST 'https://platform.yourdomain.com/api/signup/procform' \
+--header 'x-trackbox-username: username' \
+--header 'x-trackbox-password: password' \
+--header 'x-api-key: 2643889w34df345676ssdas323tgc738' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "ai": "2958222",
+    "ci": "2",
+    "gi": "22",
+    "userip": "29.249.50.83",
+    "firstname": "Gnanapiasam",
+    "lastname": "Johnsasdhan",
+    "email": "test@gmail.com",
+    "password": "test",
+    "phone": "4407012259886",
+    "so":"funnelname",
+    "sub":"FreeParam",
+    "MPC_1":"FreeParam",
+    "MPC_2":"FreeParam",
+    "MPC_3":"FreeParam",
+    "MPC_4":"FreeParam",
+    "MPC_5":"FreeParam",
+    "MPC_6":"FreeParam",
+    "MPC_7":"FreeParam",
+    "MPC_8":"FreeParam",
+    "MPC_9":"FreeParam",
+    "MPC_10":"FreeParam"
+}'
